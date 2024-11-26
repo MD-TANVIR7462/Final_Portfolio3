@@ -22,7 +22,7 @@ const Portfolio = () => {
   }, []);
 
 
-  console.log(data);
+
 
   return (
     <div className="max-w-7xl mx-auto py-20 px-5" id="portfolio">
@@ -73,7 +73,7 @@ const Portfolio = () => {
                     portfolio?.details?.slice(0,200)
 
                   }
-                   { portfolio?.details?.length>200 &&<span className="cursor-pointer hover:text-primaryColor text-white">{" "}<Link href={`/portfolio/${portfolio?.name}`}>more...</Link></span>}
+                   { portfolio?.details?.length>200 &&<span className="cursor-pointer text-primaryColor hover:text-yellow-700">{" "}<Link href={`/portfolio/${portfolio?.name}`}>more...</Link></span>}
                     </p>
                     </div>
                     <div className="mt-3">
@@ -106,9 +106,14 @@ const Portfolio = () => {
                         </h1>
                       </Link>
                       
-                      <Link href={portfolio?.livesiteClient} target="_blank">
+                      <Link href={portfolio?.gitClient} target="_blank">
                       <h1 className="flex  items-center gap-1 cursor-pointer hover:text-primaryColor">
-                        <span><FaLink/></span> GitHub Link
+                        <span><FaLink/></span> Client
+                        </h1>
+                      </Link>
+                      <Link href={portfolio?.gitServer} target="_blank">
+                      <h1 className="flex  items-center gap-1 cursor-pointer hover:text-primaryColor">
+                        <span><FaLink/></span> Server
                         </h1>
                       </Link>
                         
