@@ -30,7 +30,7 @@ const BlogDetails = () => {
         </p>
         <p className="text-justify">{stripHtml(blog?.description)}</p>
         <p className=" mt-2">Created At : <span className="text-sm text-default-400">{moment(blog?.createdAt).format("LL")}</span></p>
-        <p className=" mt-2  md:text-right">Written By : <span>Shaik Taz Uddin</span></p>
+        <p className=" mt-2  md:text-right">Written By : <span>MD.Tajul Islam Tanvir</span></p>
 
       </div>
     </div>

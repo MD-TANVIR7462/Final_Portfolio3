@@ -23,6 +23,7 @@ const Login = () => {
         email: data?.email,
         password: data?.password,
       };
+      console.log(loginInfo)
       const res = (await login(loginInfo)) as any;
       // console.log(res?.error?.data?.message);
       if (res?.data) {

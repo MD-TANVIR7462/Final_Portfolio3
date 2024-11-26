@@ -10,7 +10,7 @@ const AdminSidebar = () => {
       <div>
         <Link href={"/"} className="flex items-center " >
           <AcmeLogo />
-          <p className="font-bold text-inherit">SKTU</p>
+          <p className="font-bold text-inherit">TNVR</p>
         </Link>
       </div>
       <div className="mt-5">

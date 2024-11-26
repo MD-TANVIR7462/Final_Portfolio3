@@ -11,7 +11,7 @@ const HeroArea = () => {
           <h1 className="leading-4 tracking-wide font-mono text-3xl">
             I&#39;M{" "}
             <span className="text-5xl font-bold text-primaryColor">
-              Shaik Taz Uddin
+              Tajul Islam Tanvir
             </span>
           </h1>
           <h1 className="tracking-widest pb-2 font-thin text-wrap ">

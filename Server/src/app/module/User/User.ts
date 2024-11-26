@@ -1,7 +1,7 @@
 import { model, Schema } from "mongoose";
 import { AppError } from "../../error/AppErrors";
 import { StatusCodes } from "http-status-codes";
-
+require('dotenv').config();
 export interface IUser {
   name: string;
   email: string;
@@ -19,11 +19,14 @@ const userSchema = new Schema<IUser>(
   { timestamps: true }
 );
 
+
+
+// Create the UserData object using environment variables
 const UserData = {
-  name: "Shaik Taz Uddin",
-  email: "tazahmed@gmail.com",
-  role: "Admin",
-  password: "admin123",
+  name: process.env.USER_NAME,
+  email: process.env.USER_EMAIL,
+  role: process.env.USER_ROLE,
+  password: process.env.USER_PASSWORD,
 };
 
 export const User = model<IUser>("User", userSchema);

@@ -12,7 +12,6 @@ const CreateSkill = () => {
 
   const handleSubmit: SubmitHandler<FieldValues> = async (data) => {
     try {
-      // if (data?.name && data?.estimate) {
         const toastId = toast.loading("creating...");
         
         const skillInfo = {
@@ -24,10 +23,11 @@ const CreateSkill = () => {
         
         if (res?.data) {
           toast.success("Added Your New skill", { id: toastId });
+          
         } else {
           toast.error(res?.error?.data?.message, { id: toastId });
         }
-      // }
+
     } catch (error: any) {
       console.log(error);
       toast.error(error?.message);
