@@ -1,6 +1,6 @@
 
-**Live Link Server: [https://portfolio-server-flax-nine.vercel.app](https://portfolio-server-flax-nine.vercel.app)** </br>
-**Website Live Link : [https://tazuddin.vercel.app](https://tazuddin.vercel.app)** </br>
+<!-- **Live Link Server: [https://portfolio-server-flax-nine.vercel.app](https://portfolio-server-flax-nine.vercel.app)** </br>
+**Website Live Link : [https://tazuddin.vercel.app](https://tazuddin.vercel.app)** </br> -->
 
 ## Features
 
@@ -49,9 +49,9 @@
      ```
      PORT=5000
 
-     DATABASE_URL=mongodb+srv://<username>:<password>@cluster0.25fgudl.mongodb.net/portfolio?retryWrites=true&w=majority&appName=Cluster0
+     DATABASE_URL=your_db_url
 
-     JWT_ACCESS_TOKEN_SECRET=jfkgkjfdioufdhjfgshuirturt8uiyhueruiourjeioteroehjkfgjkfghkjjk
+     JWT_ACCESS_TOKEN_SECRET=your_access_token
      
      JWT_ACCESS_EXPIRES_IN=5d
      

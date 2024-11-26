@@ -45,10 +45,10 @@ const Education = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2014 (JSC)</h1>
+              <h1 className="text-xl font-semibold">In 2016 (JSC)</h1>
               <p>Junior School Certificate</p>
               <p className="text-sm text-[#808080]">
-                Border Guard Public School, Jessore
+              Mohammed Kamal Uddin High School, Chittagong
               </p>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Education = () => {
                           data-aos-duration="500"
             
             >
-              <h1 className="text-xl font-semibold">In 2017 (SSC)</h1>
+              <h1 className="text-xl font-semibold">In 2019 (SSC)</h1>
               <p>Senior School Certificate</p>
               <p className="text-sm text-[#808080]">
-                Border Guard Public School, Jessore
+                Bangladesh Korea Technical Training Center, Chittagong
               </p>
             </div>
             <div className="relative w-10 flex justify-center mt-1"
@@ -94,25 +94,25 @@ const Education = () => {
                           data-aos-duration="500"
             
             >
-              <h1 className="text-xl font-semibold">In 2017-2021 (Diploma)</h1>
-              <p>Diploma in computer science and Engineering</p>
+              <h1 className="text-xl font-semibold">In 2019-2023 (Diploma)</h1>
+              <p>Diploma in computer science and Technology</p>
               <p className="text-sm text-[#808080]">
-                Jessore Polytechnic instutite,Jessore
+                Chittagong Polytechnic institute, Chittagong
               </p>
             </div>
           </div>
 
-          {/* SSC Section */}
+          {/* BSC Section */}
           <div className="mb-10 flex items-start w-full">
             <div className="w-1/2 text-right"
                           data-aos="zoom-in-up"
                           data-aos-duration="500"
             
             >
-              <h1 className="text-xl font-semibold">In 2022-Present (BSC)</h1>
+              <h1 className="text-xl font-semibold">In 2024-Present (BSC)</h1>
               <p>BSC in computer science and Engineering</p>
               <p className="text-sm text-[#808080]">
-                Northen University Of Business and Technology,Khulna
+                East Delta University, Chittagong
               </p>
             </div>
             <div className="relative w-10 flex justify-center mt-1"

@@ -1,6 +1,6 @@
- **Live Link(front end) : [https://tazuddin.vercel.app](https://tazuddin.vercel.app/)** 
+ <!-- **Live Link(front end) : [https://tazuddin.vercel.app](https://tazuddin.vercel.app/)** 
 
- **Live Link(back end) : [https://portfolio-server-flax-nine.vercel.app](https://portfolio-server-flax-nine.vercel.app)**
+ **Live Link(back end) : [https://portfolio-server-flax-nine.vercel.app](https://portfolio-server-flax-nine.vercel.app)** -->
 
 
 
