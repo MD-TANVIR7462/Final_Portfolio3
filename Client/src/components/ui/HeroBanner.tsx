@@ -1,5 +1,5 @@
 "use client";
-import img from "@/assets/taz.png";
+// import img from "@/assets/taz.png";
 import Image from "next/image";
 import { BackgroundBeams } from "./Background";
 import HandleHashScroll from "@/utils/HandleHashScroll";
@@ -12,8 +12,8 @@ export function HeroBanner() {
     >
       <div className="flex flex-col-reverse md:flex-row h-auto justify-between items-center max-w-7xl mx-auto px-5 md:px-10 max-h-[650px] ">
         <div className="flex-1 space-y-1 px-2 text-justify md:text-left z-10">
-          <h1 className="leading-4 tracking-wide font-mono text-3xl mt-5 md:mt-0">
-            I&#39;M{" "}
+          <h1 className="font-mono text-3xl mt-5 md:mt-0">
+            I'M{" "}
             <span className="text-5xl font-bold text-primaryColor">
               Tajul Islam Tanvir
             </span>
@@ -29,7 +29,7 @@ export function HeroBanner() {
         </div>
         <div className="w-full  md:w-[50%] flex justify-center md:justify-end z-10">
           <Image
-            src={img.src}
+            src="https://i.ibb.co.com/m63HR6z/Whats-App-Image-2024-09-14-at-11-10-24-AM-removebg-preview.png"
             className="w-full md:w-[82%]  "
             alt="image"
             width={500}
@@ -37,8 +37,6 @@ export function HeroBanner() {
           />
         </div>
       </div>
-      {/* <div className="absolute inset-0  bg-cover" style={{backgroundImage:`url(${bg1.src})`}}></div> */}
-
       <BackgroundBeams />
     </div>
   );

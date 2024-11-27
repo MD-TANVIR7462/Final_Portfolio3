@@ -48,17 +48,17 @@ const Education = () => {
               <h1 className="text-xl font-semibold">In 2016 (JSC)</h1>
               <p>Junior School Certificate</p>
               <p className="text-sm text-[#808080]">
-              Mohammed Kamal Uddin High School, Chittagong
+                Mohammed Kamal Uddin High School, Chittagong
               </p>
             </div>
           </div>
 
           {/* SSC Section */}
           <div className="mb-10 flex items-start w-full">
-            <div className="w-1/2 text-right"
-                          data-aos="zoom-in-up"
-                          data-aos-duration="500"
-            
+            <div
+              className="w-1/2 text-right"
+              data-aos="zoom-in-up"
+              data-aos-duration="500"
             >
               <h1 className="text-xl font-semibold">In 2019 (SSC)</h1>
               <p>Senior School Certificate</p>
@@ -66,8 +66,9 @@ const Education = () => {
                 Bangladesh Korea Technical Training Center, Chittagong
               </p>
             </div>
-            <div className="relative w-10 flex justify-center mt-1"
-                          data-aos="fade-up"
+            <div
+              className="relative w-10 flex justify-center mt-1"
+              data-aos="fade-up"
               data-aos-duration="500"
             >
               <FaCircle
@@ -80,8 +81,9 @@ const Education = () => {
           {/* diploma Section */}
           <div className="mb-10 flex items-start w-full pt-4">
             <div className="w-1/2"></div>
-            <div className="relative w-10 mt-1 flex justify-center "
-                          data-aos="fade-up"
+            <div
+              className="relative w-10 mt-1 flex justify-center "
+              data-aos="fade-up"
               data-aos-duration="500"
             >
               <FaCircle
@@ -89,10 +91,10 @@ const Education = () => {
                 size={14}
               />
             </div>
-            <div className="w-1/2 pl-0"
-                          data-aos="zoom-in-up"
-                          data-aos-duration="500"
-            
+            <div
+              className="w-1/2 pl-0"
+              data-aos="zoom-in-up"
+              data-aos-duration="500"
             >
               <h1 className="text-xl font-semibold">In 2019-2023 (Diploma)</h1>
               <p>Diploma in computer science and Technology</p>
@@ -104,10 +106,10 @@ const Education = () => {
 
           {/* BSC Section */}
           <div className="mb-10 flex items-start w-full">
-            <div className="w-1/2 text-right"
-                          data-aos="zoom-in-up"
-                          data-aos-duration="500"
-            
+            <div
+              className="w-1/2 text-right"
+              data-aos="zoom-in-up"
+              data-aos-duration="500"
             >
               <h1 className="text-xl font-semibold">In 2024-Present (BSC)</h1>
               <p>BSC in computer science and Engineering</p>
@@ -115,8 +117,9 @@ const Education = () => {
                 East Delta University, Chittagong
               </p>
             </div>
-            <div className="relative w-10 flex justify-center mt-1"
-                          data-aos="fade-up"
+            <div
+              className="relative w-10 flex justify-center mt-1"
+              data-aos="fade-up"
               data-aos-duration="500"
             >
               <FaCircle
