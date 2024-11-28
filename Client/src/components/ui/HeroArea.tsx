@@ -26,7 +26,7 @@ const HeroArea = () => {
           </Button>
         </div>
         <div className="w-[50%] flex justify-end">
-          <Image src={img.src} className="w-[82%] rounded-b-full" alt="image" width={500} height={500} />
+          <Image src={img.src} className="w-[82%] rounded-b-full" alt="image" width={500} height={500} priority />
         </div>
       </div>
       {/* <div className="absolute inset-0  bg-cover" style={{backgroundImage:`url(${bg1.src})`}}></div> */}

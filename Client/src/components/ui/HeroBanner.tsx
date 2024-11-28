@@ -13,7 +13,7 @@ export function HeroBanner() {
         <div className="flex-1 space-y-1 px-2 text-justify md:text-left z-10">
           <h1 className="font-mono text-xl md:text-3xl mt-5 md:mt-0">
             I'M{" "}
-            <span className="text-2xl md:text-5xl font-bold text-primaryColor">
+            <span className=" text-2xl md:text-5xl font-bold text-primaryColor">
               Tajul Islam Tanvir
             </span>
           </h1>

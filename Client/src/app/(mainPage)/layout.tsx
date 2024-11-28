@@ -1,4 +1,5 @@
 import MainNav from "@/components/navbar/MainNav";
+import Contact from "@/components/ui/Contact";
 import React, { ReactNode } from "react";
 
 const layout = ({ children }: { children: ReactNode }) => {
@@ -6,6 +7,8 @@ const layout = ({ children }: { children: ReactNode }) => {
     <>
       <MainNav />
       {children}
+      <Contact />
+   
     </>
   );
 };

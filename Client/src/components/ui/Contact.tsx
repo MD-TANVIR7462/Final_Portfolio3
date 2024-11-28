@@ -7,17 +7,17 @@ import { LuPhone } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import SectionTitle from "../SectionTitle/Title";
-// import SectionTitle from "../SectionTitle/Title";
 import bgLine from "@/assets/bg-line.jpg";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 
 const Contact = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
 
   return (
     <div className="relative" id="contact">
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex mt-8 items-center justify-center">
-          <div className="bg-primaryColor h-[2px] flex-1"></div>
+          <div className="bg-primaryColor text-primaryColor h-[2px] flex-1"></div>
           <div className="flex px-5 gap-2 text-2xl   z-20">
             <Link href="https://www.facebook.com/MD.Tanvir.evan33/">
               <FaFacebook />
