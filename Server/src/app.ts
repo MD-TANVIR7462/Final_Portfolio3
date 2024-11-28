@@ -10,7 +10,7 @@ const app = express();
 // Allow requests from localhost:3000 and other domains
 app.use(
   cors({
-    origin: "http://localhost:3000", // You can allow more domains or * for all
+    origin: ["http://localhost:3000","https://tanvir3.vercel.app/"], // You can allow more domains or * for all
     methods: ["GET", "POST", "PUT", "DELETE"], // Allow specific methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allow specific headers
     credentials: true, // Allow credentials if you need cookies or authentication
