@@ -68,7 +68,7 @@ const Contact = () => {
                 <IoLocationOutline />
               </span>
               <span>
-                <Link href="mailto:tazahmedsoft@gmail.com">
+                <Link href="">
                   Hillview R/A ,Chittagong , Bangladesh
                 </Link>
               </span>

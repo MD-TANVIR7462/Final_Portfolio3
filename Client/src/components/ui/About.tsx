@@ -1,8 +1,6 @@
 "use client";
-import React, { useEffect } from "react";
-
+import React, { useEffect } from "react"
 import { FaDownload } from "react-icons/fa";
-
 import bgLine from "@/assets/bg-line.jpg";
 import SectionTitle from "../SectionTitle/Title";
 import { Button } from "@nextui-org/react";
@@ -23,14 +21,14 @@ const About = () => {
 
         <div className="" data-aos="zoom-in-up" data-aos-duration="500">
           <h1 className="text-justify">
-            Hi, I'm Tajul Islam Tanvir, a passionate and dedicated web
-            developer with 2 years of hands-on experience in building dynamic
-            and responsive web applications. I specialize in modern web
-            technologies such as{" "}
+            Hi, I'm Tajul Islam Tanvir, a passionate and dedicated web developer
+            with 2 years of hands-on experience in building dynamic and
+            responsive web applications. I specialize in modern web technologies
+            such as{" "}
             <span className="text-primaryColor">
               {" "}
-              HTML, CSS, Tailwind, JavaScript, TypeScript, Firebase, React, Next.js, Framer Motion,
-              Node.js, Express.js, MongoDB, and Mongoose{" "}
+              HTML, CSS, Tailwind, JavaScript, TypeScript, Firebase, React,
+              Next.js, Framer Motion, Node.js, Express.js, MongoDB, and Mongoose{" "}
             </span>
             . Currently, I'm pursuing a{" "}
             <span className="text-primaryColor">

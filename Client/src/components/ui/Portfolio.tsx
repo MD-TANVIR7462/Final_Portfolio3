@@ -73,7 +73,7 @@ const Portfolio = () => {
                     portfolio?.details?.slice(0,200)
 
                   }
-                   { portfolio?.details?.length>200 &&<span className="cursor-pointer text-primaryColor hover:text-yellow-700">{" "}<Link href={`/portfolio/${portfolio?.name}`}>more...</Link></span>}
+                   { portfolio?.details?.length>200 &&<span className="cursor-pointer text-primaryColor hover:text-yellow-700">{" "}<Link href={`/portfolio/${portfolio?.name}`}>more info...</Link></span>}
                     </p>
                     </div>
                     <div className="mt-3">
