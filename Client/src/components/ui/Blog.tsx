@@ -77,43 +77,43 @@ const Blog = () => {
         >
           {myBlogs?.map((blog: IBlog) => (
             <SwiperSlide key={blog?._id}>
-              <div
-                className="object-cover h-[350px] w-full rounded-xl border-primaryColor border-1 shadow"
-                style={{
-                  backgroundImage: `url(${blog?.image})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-                data-aos="zoom-in-up"
-                data-aos-duration="500"
-              >
-                <div className="bg-[#050505b3] h-[350px] w-full rounded-xl relative p-5 flex flex-col justify-between">
-                  <div>
-                    <Button
-                      className="border text-default-100 text-sm font-semibold py-1 px-3"
-                      variant="bordered"
-                    >
-                      {blog?.tag}
-                    </Button>
-                  </div>
-                  <div className="absolute bottom-6 left-5">
-                    <h1 className="text-white text-2xl font-bold">
-                      {blog?.title}
-                    </h1>
-                    <p className="text-sm text-white mt-1">
-                      {stripHtml(blog?.description, 100)}
-                      <Link href={`/blog/${blog?._id}`}>
+              <Link href={`/blog/${blog?._id}`}>
+                <div
+                  className="object-cover h-[350px] w-full rounded-xl border-primaryColor border-1 shadow"
+                  style={{
+                    backgroundImage: `url(${blog?.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  data-aos="zoom-in-up"
+                  data-aos-duration="500"
+                >
+                  <div className="bg-[#050505b3] h-[350px] w-full rounded-xl relative p-5 flex flex-col justify-between">
+                    <div>
+                      <Button
+                        className="border text-default-100 text-sm font-semibold py-1 px-3"
+                        variant="bordered"
+                      >
+                        {blog?.tag}
+                      </Button>
+                    </div>
+                    <div className="absolute bottom-6 left-5">
+                      <h1 className="text-white text-2xl font-bold">
+                        {blog?.title}
+                      </h1>
+                      <p className="text-sm text-white mt-1">
+                        {stripHtml(blog?.description, 100)}
                         <span className="ml-1 font-semibold text-primaryColor">
                           more...
                         </span>
-                      </Link>
-                    </p>
-                    <p className="text-white mt-2">
-                      {moment(blog?.createdAt).format("LL")}
-                    </p>
+                      </p>
+                      <p className="text-white mt-2">
+                        {moment(blog?.createdAt).format("LL")}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>
