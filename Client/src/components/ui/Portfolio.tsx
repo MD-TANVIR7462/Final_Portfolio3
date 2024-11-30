@@ -67,7 +67,7 @@ const Portfolio = () => {
                   
                   <div className="p-5">
                     <div>
-                    <h1 className="text-xl ">Wonder Wish</h1>
+                    <h1 className="text-xl ">{portfolio?.name}</h1>
                     <p className="text-sm text-justify text-[#bdbdbd]">{
                     
                     portfolio?.details?.slice(0,200)
