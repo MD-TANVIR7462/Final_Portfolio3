@@ -19,7 +19,7 @@ const Education = () => {
         <div data-aos="zoom-in" data-aos-duration="500">
           <SectionTitle
             headerText="Education"
-            title="Educational Qualification"
+            title="Education"
           />
         </div>
 
@@ -45,9 +45,9 @@ const Education = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2016 (JSC)</h1>
-              <p>Junior School Certificate</p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">In 2016 (JSC)</h1>
+              <p className="text-sm sm:text-base">Junior School Certificate</p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
                 Mohammed Kamal Uddin High School, Chittagong
               </p>
             </div>
@@ -60,9 +60,9 @@ const Education = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2019 (SSC)</h1>
-              <p>Senior School Certificate</p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">In 2019 (SSC)</h1>
+              <p className="text-sm sm:text-base">Senior School Certificate</p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
                 Bangladesh Korea Technical Training Center, Chittagong
               </p>
             </div>
@@ -96,9 +96,9 @@ const Education = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2019-2023 (Diploma)</h1>
-              <p>Diploma in computer science and Technology</p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">In 2019-2023 (Diploma)</h1>
+              <p className="text-sm sm:text-base">Diploma in computer science and Technology</p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
                 Chittagong Polytechnic institute, Chittagong
               </p>
             </div>
@@ -111,9 +111,9 @@ const Education = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2024-Present (BSC)</h1>
-              <p>BSC in computer science and Engineering</p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">In 2024-Present (BSC)</h1>
+              <p className="text-sm sm:text-base">BSC in computer science and Engineering</p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
                 East Delta University, Chittagong
               </p>
             </div>

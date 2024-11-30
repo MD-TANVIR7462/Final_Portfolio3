@@ -28,9 +28,9 @@ const Portfolio = () => {
     <div className="max-w-7xl mx-auto py-20 px-5" id="portfolio">
       {/* <h1 className="text-4xl text-center">PortFolio</h1> */}
       <div data-aos="zoom-in" data-aos-duration="500">
-      <SectionTitle headerText="PortFolio" title="my Portfolio" />
+      <SectionTitle headerText="Projects" title="my Projects" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-6 lg:mt-10 ">
         {isLoading
           ? Array(4)
               .fill(null)

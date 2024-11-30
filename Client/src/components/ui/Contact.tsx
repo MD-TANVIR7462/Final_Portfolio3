@@ -69,7 +69,7 @@ const Contact = () => {
               </span>
               <span>
                 <Link href="">
-                  Hillview R/A ,Chittagong , Bangladesh
+                  Chittagong , Bangladesh
                 </Link>
               </span>
             </div>

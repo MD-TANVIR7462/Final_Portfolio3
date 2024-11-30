@@ -6,7 +6,7 @@ import HandleHashScroll from "@/utils/HandleHashScroll";
 export function HeroBanner() {
   return (
     <div
-      className=" bg-[#151515] relative pt-10 pb-20 md:pt-0 md:pb-0 lg:h-[72vh] lg:max-h-[800px] "
+      className=" bg-[#151515] relative pt-10 pb-20 md:pt-0 md:pb-0  lg:h-[85dvh]  lg:max-h-[800px] "
       id="home"
     >
       <div className="flex flex-col-reverse md:flex-row h-auto justify-between items-center max-w-7xl mx-auto px-5 md:px-10 max-h-[650px] ">

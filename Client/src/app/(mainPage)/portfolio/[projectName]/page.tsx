@@ -22,13 +22,14 @@ if(isLoading){
 }
 
   return (
-    <div className="bg-[#151515] min-h-screen text-default-100">
+    <div className="bg-[#151515] min-h-screen text-default-100 my-5 ">
       <div className="max-w-[1100px] mx-auto py-10 px-5 lg:px-20 shadow-xl shadow-[#fddc7a17] z-20 bg-[#111111]">
         <div className="flex justify-center max-h-[400px] ">
           <Image
             src={portfolio?.image}
             className="w-full h-full rounded-md object-cover border"
             alt="img"
+          
           />
         </div>
         <div className=" mx-auto pt-8">

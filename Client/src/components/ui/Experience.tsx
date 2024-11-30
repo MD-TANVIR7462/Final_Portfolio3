@@ -14,7 +14,7 @@ const Experience = () => {
 
   return (
     <div className="relative bg-cover" id="experience">
-      <div className="max-w-7xl mx-auto py-20">
+      <div className="max-w-7xl mx-auto py-16 sm:py-20">
         <div data-aos="zoom-in" data-aos-duration="500">
           <SectionTitle headerText="Experience" title="Experience" />
         </div>
@@ -41,9 +41,9 @@ const Experience = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">In 2023 (July - Sep)</h1>
-              <p>Intern as a Junior Web Developer </p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">In 2023 (July - Sep)</h1>
+              <p className="text-sm sm:text-base">Intern as a Junior Web Developer </p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
                 Well Up Technology, Chittagong
               </p>
             </div>
@@ -55,9 +55,9 @@ const Experience = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <h1 className="text-xl font-semibold">From Dec 2023 - Present</h1>
-              <p>Junior Front End Developer</p>
-              <p className="text-sm text-[#808080]">
+              <h1 className="text-md sm:text-xl font-semibold">Dec 2023 - Present</h1>
+              <p className="text-sm sm:text-base">Junior Front End Developer</p>
+              <p className=" text-xs sm:text-sm text-[#808080]">
               SISCOTEK, Chittagong
               </p>
             </div>
