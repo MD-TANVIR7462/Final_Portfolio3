@@ -31,7 +31,7 @@ const Contact = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <span className="text-3xl">
+              <span className="text-3xl text-white">
                 <MdOutlineMail />
               </span>
               <span className="flex flex-col text-white">
@@ -51,7 +51,7 @@ const Contact = () => {
               <span className="text-3xl text-white">
                 <LuPhone />
               </span>
-              <span>
+              <span className="text-white">
                 <Link href="tel:+8801998863753">+880 1998863753</Link>
               </span>
             </div>
@@ -63,7 +63,7 @@ const Contact = () => {
               <span className="text-3xl text-white">
                 <IoLocationOutline />
               </span>
-              <span>
+              <span className="text-white">
                 <Link href="">Chittagong , Bangladesh</Link>
               </span>
             </div>
@@ -76,7 +76,7 @@ const Contact = () => {
               <FaFacebook className="text-white" />
             </Link>
             <Link href={"mailto:mdtanvir7462@gmail.com"}>
-              <MdOutlineMail />
+              <MdOutlineMail className="text-white" />
             </Link>
             <Link
               href={
