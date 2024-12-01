@@ -11,13 +11,11 @@ import bgLine from "@/assets/bg-line.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 const Contact = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-
 
   return (
     <div className="relative" id="contact">
@@ -36,7 +34,7 @@ const Contact = () => {
               <span className="text-3xl">
                 <MdOutlineMail />
               </span>
-              <span className="flex flex-col">
+              <span className="flex flex-col text-white">
                 <Link
                   href="mailto:mdtanvir7462@gmail.com"
                   className="text-wrap"
@@ -50,13 +48,11 @@ const Contact = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <span className="text-3xl">
+              <span className="text-3xl text-white">
                 <LuPhone />
               </span>
               <span>
-                <Link href="tel:+8801998863753">
-                  +880 1998863753
-                </Link>
+                <Link href="tel:+8801998863753">+880 1998863753</Link>
               </span>
             </div>
             <div
@@ -64,13 +60,11 @@ const Contact = () => {
               data-aos="zoom-in-up"
               data-aos-duration="500"
             >
-              <span className="text-3xl">
+              <span className="text-3xl text-white">
                 <IoLocationOutline />
               </span>
               <span>
-                <Link href="">
-                  Chittagong , Bangladesh
-                </Link>
+                <Link href="">Chittagong , Bangladesh</Link>
               </span>
             </div>
           </div>
@@ -79,18 +73,20 @@ const Contact = () => {
           <div className="bg-primaryColor text-primaryColor h-[2px] flex-1"></div>
           <div className="flex px-5 gap-2 text-2xl   z-20">
             <Link href="https://www.facebook.com/MD.Tanvir.evan33/">
-              <FaFacebook />
+              <FaFacebook className="text-white" />
             </Link>
             <Link href={"mailto:mdtanvir7462@gmail.com"}>
               <MdOutlineMail />
             </Link>
             <Link
-              href={"https://www.linkedin.com/in/md-tajul-islam-tanvir-531682278/"}
+              href={
+                "https://www.linkedin.com/in/md-tajul-islam-tanvir-531682278/"
+              }
             >
-              <FaLinkedin />
+              <FaLinkedin className="text-white" />
             </Link>
             <Link href={"https://github.com/MD-TANVIR7462"}>
-              <FaGithub />
+              <FaGithub className="text-white" />
             </Link>
           </div>
           <div className="bg-primaryColor h-[2px] flex-1"></div>
